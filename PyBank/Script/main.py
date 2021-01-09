@@ -41,8 +41,7 @@ print(f"Greatest Decrease in Profit: {greatest_decrease}")
 
 
 with open("output.txt","w") as txt_file:
-    txt_file.write(f"Total Months: {months}\n")
-    txt_file.write(f"Total: {total}\n")
+
     txt_file.write("Financial Analysis\n")
     txt_file.write("___________________________\n")
     txt_file.write(f"Total Months: {months}\n")
